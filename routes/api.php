@@ -54,3 +54,7 @@ Route::apiResource('/desa', App\Http\Controllers\Api\DesaController::class);
  * route resource balita
  */
 Route::apiResource('/balita', App\Http\Controllers\Api\BalitaController::class);
+/**
+ * route resource knn
+ */
+Route::apiResource('/knn', App\Http\Controllers\Api\KnnController::class);

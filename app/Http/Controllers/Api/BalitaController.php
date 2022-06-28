@@ -30,11 +30,11 @@ class BalitaController extends Controller
     {
         $result = [];
         $data = ($request->json("data"));
-        //dd($data[0]["provinsi"]);
+        //dd($data[0]["balita"]);
         //set validation
         if (count($data) == 0) {
             $validator = Validator::make($request->all(), [
-                'provinsi'   => 'required'
+                'balita'   => 'required'
             ]);
 
 
