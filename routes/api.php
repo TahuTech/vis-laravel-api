@@ -58,3 +58,7 @@ Route::apiResource('/balita', App\Http\Controllers\Api\BalitaController::class);
  * route resource knn
  */
 Route::apiResource('/knn', App\Http\Controllers\Api\KnnController::class);
+/**
+ * route resource dataset
+ */
+Route::apiResource('/dataset', App\Http\Controllers\Api\DatasetController::class);
